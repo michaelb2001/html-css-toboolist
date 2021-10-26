@@ -56,9 +56,11 @@ section button:nth-child(2){
 div p{
     display: inline-block;
 }
-div h2:before{
-    content: "▼ "
+div h2{
+    display: inline-block;
+    cursor:pointer;
 }
+
 
 
 .evidenziato-blu{
@@ -107,12 +109,4 @@ div h2:before{
     border:0;
     padding: 5px 10px;
     color:white;
-}
-
-.check:before{
-    content: "✔ "
-}
-
-.uncheck:before{
-    content: "✖ "
 }
