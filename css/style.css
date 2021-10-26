@@ -110,3 +110,33 @@ div h2{
     padding: 5px 10px;
     color:white;
 }
+
+.check {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 3px;
+    margin-right: 10px;
+    color: #79c9b6;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #79c9b6;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.uncheck{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 3px;
+    margin-right: 10px;
+    color: #f07870;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #f07870;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
